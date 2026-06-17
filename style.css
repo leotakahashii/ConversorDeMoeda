@@ -1,0 +1,117 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+        body {
+    /* Substitua pelo caminho da sua imagem */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/background-cifrao.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
+
+
+        .logo {
+            width: 375px;
+            display: block;
+            margin: 20px auto;
+            background-color: #c26208;
+            border-radius: 20px;
+            border: 1px solid #000000;
+        }
+    
+        main {
+            width: 375px;
+            background: #F4F4F4;
+            border-radius: 20px;
+            margin: 0px auto 40px;
+            padding: 44px 24px 23px;
+            border: 1px solid #000000;
+        }
+
+        label {
+            color: #777777;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        select, input {
+            background: #ffffff;
+            border: 2px solid #bbbbbb;
+            border-radius: 10px;
+            height: 48px;
+            width: 100%;
+            margin-bottom: 24px;
+            appearance: none;
+            padding-left: 18px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #555555;
+            cursor: pointer;
+        }
+
+        button {
+            border-radius: 10px;
+            width: 100%;
+            background: #c26208;
+            border: none;
+            height: 48px;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        button:active {
+            opacity: 1.5;
+        }
+
+        section {
+            border: 2px solid #c26208;
+            border-radius: 20px;
+            margin-top: 36px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .arrow-img {
+            margin: 15px;
+            width: 80px;
+        }
+
+        .currency-img {
+            width: 80px;
+        }
+
+        .currency-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .currency {
+            color: #777777;
+            font-size: 14px;
+        }
+        
+        .currency-value {
+            color: #555555;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+
